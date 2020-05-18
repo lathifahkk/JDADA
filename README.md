@@ -76,3 +76,7 @@ Solusi untuk permasalah Bambang ini adalah sebuah aplikasi yanh dapat memudahkan
 
 ### ERD
 ![erdJDADA](https://user-images.githubusercontent.com/60083962/82161220-1ebe7900-98c5-11ea-8c01-68150a94e12b.png)
+
+### Hasil Implementasi Web
+#### Landing Page
+![landingpage](https://user-images.githubusercontent.com/60083962/82173922-28fa6a80-98f9-11ea-855e-aa0ceb93d8f5.PNG)
