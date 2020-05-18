@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Playfair Display;
+    background-color: #193660;
+}
+
+nav{
+    background: #ffffff;
+    height: 65px;
+    width: 100%;
+}
+
+label.logo{
+    color: #193660;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 65px;
+    padding: 0 100px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 65px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: #193660;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+nav ul li a.active, a:hover{
+    background: #c4c4c4;
+    transition: .5s;
+}
+
+.product{
+    width: 1000px;
+    height: 500px;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 37px;
+    margin-bottom: 20px;
+    background: #ffffff;
+}
+
+.left, .right{
+    float: left;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.product .left img{
+    height: 500px;
+    weight: 500px;
+    object-fit: cover;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.uname>a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.uname, .right h1, .right h2{
+    line-height: 40px;
+}
+
+.right h1, .right h2{
+    color: #193660;
+}
+
+.right .deskripsi{
+    padding: 15px 0 15px 0;
+}
+
+.loc>p{
+    font-weight: bold;
+}
+
+.product .right .bottom{
+    margin-top: 140px;
+    margin-left: 18px;
+}
+
+.bottom a{
+    justify-content: center;
+    padding:15px 100px; 
+    color: white; 
+    background: #0A2142; 
+    text-decoration: none; 
+    border-radius: 10px; 
+    line-height: 56px;
+    cursor: pointer;
+    font-weight: bold;
+}
